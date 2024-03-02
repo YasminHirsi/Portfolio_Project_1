@@ -41,8 +41,10 @@ The about page has different sections as follow
 ![](screenshots/home_screenshot.png "")
 
 ##### About Page
+![](screenshots/about_screenshot.png "")
 
 ##### Contact Page
+![](screenshots/contact_screenshot.png "")
 
 #### Testing
 
