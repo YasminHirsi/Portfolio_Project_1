@@ -38,6 +38,8 @@ The about page has different sections as follow
 
 ##### Home Page
 
+![](screenshots/home_screenshot.png "")
+
 ##### About Page
 
 ##### Contact Page
