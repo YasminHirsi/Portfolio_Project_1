@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <div class="header-heading">
+                    <h1 style="color: #fff;text-align: center;">CHILD CARE</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html" class=active>Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <img src="images/cover6.jpg" width="1500" height="400" id="cover" alt="cover photo featuring kids">
+			<div class="contact-main">
+				<div class="form">
+					<form name="myForm" method = "post">
+						<h2 style="text-align: center;"><u>Write to Us:</u></h2>
+						<p>Name</p>
+						<input type="text" name="name" placeholder="Enter Name">
+						<p>Email</p>
+						<input type="email" name="email" placeholder="Enter Email" required>
+						<p>Telephone</p>
+						<input type="tel" name="phone" pattern="[0-9]{10}" required placeholder="Enter your number">
+						<p>Address</p>
+						<input type="text" name="address" placeholder="Enter Address">
+						<p>Zip Code</p>
+						<input type="text" name="zipcode" pattern="[0-9]{5}" required placeholder="Enter Zip Code"><br><br>
+						<input onclick="contact.html" type="submit" style="background-color: #33ccff">
+					</form>
+				</div>
+				<div class="details">
+					<h2 style="text-align: center;"><u>Contact Us:</u></h2>
+					<br>
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+					<h2>support.childcare@email.com</h2>
+					<br>
+					<i class="fa fa-phone-square" aria-hidden="true"></i>
+					<h2>+1234567890</h2>
+					<br>
+					<i class="fa fa-address-card" aria-hidden="true"></i>
+					<h2>London.</h2>
+				</div>
+			</div>
+			<br>
+			<footer>
+				<div class="foot">
+					<h3 style="padding: 50px;">CHILD CARE</h3>
+				</div>
+				<div class="foot" id="newsletter">
+					<h2>NEWSLETTER</h2>
+					<p>Keep up with our always upcoming programs and latest news. <br>Enter your e-mail and subscribe to our newsletter.</p>
+					<div>
+						<input type="text" name="newsletter">
+						<button type="submit">Send</button>
+					</div>
+				</div>
+				<div class="foot">
+					<h2 style="text-align: center;"><u>Contact Us:</u></h2>
+					<i class="fa fa-envelope" aria-hidden="true"><span>  -  support.childcare@email.com</span></i><br>		
+					<i class="fa fa-phone-square" aria-hidden="true"><span>   -   +1234567890</span></i><br>				
+					<i class="fa fa-address-card" aria-hidden="true"><span>  -  London.</span></i>
+				</div>
+			</footer> 
+        </div>
+    </body>
+</html>

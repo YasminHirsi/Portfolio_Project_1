@@ -99,7 +99,6 @@ img {
     background-color: #2980b9;
 }
 
-
 .card{
 	display: grid;
 	grid-template-columns: auto auto auto;
@@ -149,6 +148,48 @@ iframe{
 	border-radius: 10px;
 }
 
+.contact-main{
+	display: flex;
+	width: auto;
+}
+
+
+.form{
+	width: 50%;
+	height: 600px;
+	font-size: 16px;
+	background-color: #f2f2f2;
+	padding: 10px;
+	margin-right: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.form input{
+	width: 600px;
+	height: 35px;
+	border-radius: 10px;
+}
+
+.form button{
+	background-color: #33ccff;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.details{
+	background-color: #f2f2f2;
+	width: 50%;
+	height: 620px;
+	font-size: 16px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.details i{
+	color: #ff1a1a;
+	font-size: 30px;
+}
 
 footer
 {
