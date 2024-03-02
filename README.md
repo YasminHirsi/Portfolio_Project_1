@@ -57,8 +57,8 @@ The about page has different sections as follow
 
 ##### Validator Testing
 
-- HTML Testing : No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/)
-- CSS : No errors were found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+- HTML Testing : No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fyasminhirsi.github.io%2FPortfolio_Project_1%2F)
+- CSS : No errors were found when passing through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fyasminhirsi.github.io%2FPortfolio_Project_1%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 #### Deployment
 
